@@ -20,3 +20,19 @@ class(x)
 x <- "Hi its amrit here"
 # [1] "character"
 class(x)
+
+# Type Conversion in R -:
+  # Yes, we can convert the datatype in R using Ex - (as.numeeric(variableName)) 
+
+a <- 12L
+class(a)
+# [1] "integer"
+b <- 34
+class(b)
+# [1] "numeric"
+a <- as.numeric(a)
+class(a)
+# [1] "numeric"
+b <- as.integer(b)
+class(b)
+#[1] "integer"
